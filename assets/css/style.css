@@ -602,13 +602,15 @@ img {
 }
 
 .main-header .header-upper .logo-box {
-    z-index: 10;
+    z-index: 8;
 }
 
 .main-header .header-upper .logo-box .logo {
     position: relative;
     display: block;
-    padding: 23px 0px;
+    padding: 10px;
+    clip-path: circle(40%);
+    shape-outside: circle(45%);
 }
 
 .main-header .header-upper .right-column {
